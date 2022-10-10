@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+}
+.logo {
+  width: 6em;
+}
+.title {
+  color: #fff;
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+.subtitle-invitation {
+  color: #b1b1b1;
+  font-size: 1.3em;
+  margin-top: 0;
+}
