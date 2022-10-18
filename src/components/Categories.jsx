@@ -5,7 +5,7 @@ const Categories = () => {
     <div>
       <h2 className="title">Categorías</h2>
       <div className="categories-container">
-        <button className="categories-div">Cargadores y Arrancadores</button>
+        <button>Cargadores y Arrancadores</button>
         <button className="categories-div">Chaperia</button>
         <button className="categories-div">Compresores de Aire</button>
         <button className="categories-div">Elevadores de Autos</button>
