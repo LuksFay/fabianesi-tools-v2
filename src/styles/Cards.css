@@ -1,0 +1,40 @@
+.categories-cards-container {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 10px;
+}
+.categories-cards-container::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  margin-right: 10px;
+  max-height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: yellow;
+  padding: 50px;
+  position: relative;
+  border-radius: 5px;
+}
+.card-header {
+  background-color: #fff;
+}
+.card-body {
+  text-align: center;
+}
+.card-title {
+}
+.card-button {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #7224bb;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px;
+  width: 100%;
+}

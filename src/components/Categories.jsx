@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Categories.css";
+import "../styles/Cards.css";
 import CategoriesObject from "./CategoriesObject";
 const Categories = () => {
   const [data, setData] = useState(CategoriesObject);
@@ -143,10 +144,12 @@ const Categories = () => {
           return (
             <>
               <div className="card" key={id}>
-                <div className="card-header">Image</div>
+                <div className="card-header">
+                  <img src={image} alt="Logo de empresa" />
+                </div>
                 <div className="card-body">
-                  <h4>{title}</h4>
-                  <button>link</button>
+                  <h4 className="card-title">{title}</h4>
+                  <button className="card-button">link</button>
                 </div>
               </div>
             </>

@@ -2,7 +2,7 @@ const CategoriesObject = [
   {
     id: 1,
     title: "Zonda",
-    image: "",
+    image: "/img/logosempresas/zonda.png",
     category: "cargadoresyarrancadores",
     link: "",
   },
