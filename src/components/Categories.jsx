@@ -34,12 +34,12 @@ const Categories = () => {
           >
             Chaperia
           </button>
-          <button
+          {/* <button
             className="categories-div"
             onClick={() => filterResult("compresoresdeaire")}
           >
             Compresores de Aire
-          </button>
+          </button> */}
           <button
             className="categories-div"
             onClick={() => filterResult("elevadoresdeauto")}
@@ -118,12 +118,12 @@ const Categories = () => {
           >
             Prensas e Hidraulicos
           </button>
-          <button
+          {/* <button
             className="categories-div"
             onClick={() => filterResult("puestaapunto")}
           >
             Puesta a Punto
-          </button>
+          </button> */}
           <button
             className="categories-div"
             onClick={() => filterResult("sacabollos")}
@@ -140,16 +140,16 @@ const Categories = () => {
       </div>
       <div className="categories-cards-container">
         {data.map((values) => {
-          const { id, title, image, category, link } = values;
+          const { id, title, image, link } = values;
           return (
             <>
               <div className="card" key={id}>
                 <div className="card-header">
-                  <img src={image} alt="Logo de empresa" />
+                  <img src={image} alt="Logo de empresa" className="card-header-img"/>
                 </div>
                 <div className="card-body">
                   <h4 className="card-title">{title}</h4>
-                  <button className="card-button">link</button>
+                  <a href={link} target="_blank" rel="noreferrer" className="card-button">Ver</a>
                 </div>
               </div>
             </>

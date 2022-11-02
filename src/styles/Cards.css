@@ -19,7 +19,11 @@
   border-radius: 5px;
 }
 .card-header {
-  background-color: #fff;
+  padding-bottom: 56.25%;
+}
+.card-header-img{
+  object-fit: contain;
+  width: 50px;
 }
 .card-body {
   text-align: center;
