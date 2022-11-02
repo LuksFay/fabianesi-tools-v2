@@ -9,37 +9,35 @@
 }
 .card {
   margin-right: 10px;
-  max-height: 150px;
+  max-height: 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: yellow;
-  padding: 50px;
-  position: relative;
-  border-radius: 5px;
-}
-.card-header {
-  padding-bottom: 56.25%;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  align-items: center;
 }
 .card-header-img{
-  object-fit: contain;
-  width: 50px;
+  width: 130px;
 }
 .card-body {
-  text-align: center;
-}
-.card-title {
+  width: 100%;
+  position: relative;
 }
 .card-button {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
   background-color: #7224bb;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   color: #fff;
   font-size: 1em;
   padding: 10px;
-  width: 100%;
+  width: 85%;
+  position: absolute;
+  text-align: center;
+  bottom: -23px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
 }
  

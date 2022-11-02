@@ -189,7 +189,7 @@ const Categories = () => {
       </div>
       <div className="categories-cards-container">
         {data.map((values) => {
-          const { id, title, image, link } = values;
+          const { id, image, link } = values;
           return (
             <>
               <div className="card" key={id}>
@@ -197,7 +197,6 @@ const Categories = () => {
                   <img src={image} alt="Logo de empresa" className="card-header-img"/>
                 </div>
                 <div className="card-body">
-                  <h4 className="card-title">{title}</h4>
                   <a href={link} target="_blank" rel="noreferrer" className="card-button">Ver</a>
                 </div>
               </div>
