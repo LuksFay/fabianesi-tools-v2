@@ -16,126 +16,175 @@ const Categories = () => {
       <div>
         <h2 className="title">Categorías</h2>
         <div className="categories-container">
-          <button
+          <div
             className="categories-div"
             onClick={() => setData(CategoriesObject)}
           >
+            <p className="categories-text">
             Todos
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("cargadoresyarrancadores")}
           >
+            <p className="categories-text">
             Cargadores y Arrancadores
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("chaperia")}
           >
+            <p className="categories-text">
             Chaperia
-          </button>
-          {/* <button
+            </p>
+          </div>
+          {/* <div
             className="categories-div"
             onClick={() => filterResult("compresoresdeaire")}
           >
             Compresores de Aire
-          </button> */}
-          <button
+          </div> */}
+          <div
             className="categories-div"
             onClick={() => filterResult("elevadoresdeauto")}
           >
+            <p className="categories-text">
             Elevadores de Autos
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("extractoresycomprimidos")}
           >
+            <p className="categories-text">
             Extractores y Comprimidos
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("gomeria")}
           >
+            <p className="categories-text">
+
             Gomería
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("herramientaselectricas")}
           >
+            <p className="categories-text">
+
             Herramientas Eléctricas
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("herramientasespeciales")}
           >
+            <p className="categories-text">
+
             Herramientas Especiales
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("herramientasmanuales")}
           >
+            <p className="categories-text">
+
             Herramientas Manuales
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("herramientasneumaticas")}
           >
+            <p className="categories-text">
+
             Herramientas Neumaticas
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("insertos")}
           >
+            <p className="categories-text">
             Insertos
-          </button>
-          <button
+
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("inyeccionelectronica")}
           >
+            <p className="categories-text">
             Inyección Electrónica
-          </button>
-          <button
+
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("juegosdetubos")}
           >
+            <p className="categories-text">
             Juegos de Tubos
-          </button>
-          <button
+
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("lubricacion")}
           >
+            <p className="categories-text">
+
             Lubricación
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("mobiliarioparatalleres")}
           >
+            <p className="categories-text">
+
             Mobiliario para Talleres
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("prensaehidraulicos")}
           >
+            <p className="categories-text">
+
             Prensas e Hidraulicos
-          </button>
-          {/* <button
+            </p>
+          </div>
+          {/* <div
             className="categories-div"
             onClick={() => filterResult("puestaapunto")}
           >
             Puesta a Punto
-          </button> */}
-          <button
+          </div> */}
+          <div
             className="categories-div"
             onClick={() => filterResult("sacabollos")}
           >
+            <p className="categories-text">
+
             Sacabollos
-          </button>
-          <button
+            </p>
+          </div>
+          <div
             className="categories-div"
             onClick={() => filterResult("soldadoras")}
           >
+            <p className="categories-text">
+
             Soldadoras
-          </button>
+            </p>
+          </div>
         </div>
       </div>
       <div className="categories-cards-container">

@@ -14,11 +14,15 @@
 .categories-div {
   background-color: #7224bb;
   border: none;
-  border-radius: 5px;
+  border-radius: 13px;
   color: #fff;
   font-size: 1em;
   margin-right: 1em;
   transition: transform 600ms ease;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
 }
 .categories-div:focus {
   transform: scale(1.08);
@@ -29,4 +33,8 @@
   transform: scale(1.08);
   background-color: #cdd706;
   color: #000;
+}
+.categories-text{
+  margin: 0;
+  padding: 0 20px;
 }
