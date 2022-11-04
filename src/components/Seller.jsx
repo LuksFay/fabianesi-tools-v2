@@ -1,6 +1,7 @@
 import React from "react";
 const Seller = () => {
   return (
+    <div className="container">
     <div className="card-container">
       <div className="background"></div>
       <div className="profile-pic"></div>
@@ -12,6 +13,7 @@ const Seller = () => {
             <p>whatsapp</p>
         </div>
       </div>
+    </div>
     </div>
   );
 };
