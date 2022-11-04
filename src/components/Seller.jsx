@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles/Seller.css";
+import img from "../img/wsp.png"
 const Seller = () => {
   return (
     <div className="container">
@@ -6,11 +8,11 @@ const Seller = () => {
       <div className="background"></div>
       <div className="profile-pic"></div>
       <div className="description">
-        <h3>Fabián Molinari</h3>
-        <h5>Vendedor</h5>
-        <p>Cuando hayas visto los catálogos. sentite libre de contactar conmigo para guiarte en tu compra</p>
-        <div>
-            <p>whatsapp</p>
+        <h2>Fabián Molinari</h2>
+        <h3>Vendedor</h3>
+        <p>Cuando hayas visto los catálogos. Sentite libre de contactar conmigo para guiarte en tu compra</p>
+        <div className="whatsapp">
+          <img src={img} alt="wsp" className="wsp-img" />
         </div>
       </div>
     </div>

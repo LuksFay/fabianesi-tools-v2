@@ -1,6 +1,7 @@
 body {
   background-color: #222222;
   padding: 10px;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -12,9 +13,4 @@ a {
 p
 {
   font-family: "Roboto", sans-serif;
-}
-
-p{
-  display: inline;
-  white-space: nowrap
 }

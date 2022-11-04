@@ -7,6 +7,7 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 10px;
+  border-radius: 20px;
 }
 .categories-container::-webkit-scrollbar {
   display: none;
@@ -37,4 +38,7 @@
 .categories-text{
   margin: 0;
   padding: 0 20px;
+  display: inline;
+  white-space: nowrap
+
 }

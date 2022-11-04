@@ -3,6 +3,7 @@
 }
 .logo {
   width: 6em;
+  display: none;
 }
 .title {
   color: #fff;
@@ -13,5 +14,8 @@
   color: #b1b1b1;
   font-size: 1.3em;
   margin-top: 0;
+  display: inline;
+  white-space: nowrap
+
 }
  
