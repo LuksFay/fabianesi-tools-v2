@@ -1,15 +1,24 @@
 .photo img {
-    width: 200px; /* o cualquier otro tamaño */
-    height: 200px; /* o cualquier otro tamaño */
-    object-fit: cover; /* esto cortará las partes de la imagen que sobresalgan */
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
     margin-left: 15px;
-    border-radius: 50px; /* esto crea bordes redondeados en la imagen */
+    border-radius: 50px; 
 
   }
   .cards-container {
-    display: flex; /* esto hace que los elementos hijos se alineen horizontalmente */
-    justify-content: center; /* esto centra los elementos hijos horizontalmente */
-    margin-top: 70px; /* esto agrega un margen superior de 15 píxeles */
-    overflow-x: auto; /* esto permite el desplazamiento horizontal de los elementos si hacen overflow */
-    min-width: 1080px;
+    /* display: flex; 
+    justify-content: center; 
+    margin-top: 70px;
+    overflow-x: auto;
+    */
+    display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 10px;
+  border-radius: 20px;
+  }
+
+  .margin-gallery{
+    margin-top: 50px;
   }
